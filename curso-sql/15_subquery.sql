@@ -1,4 +1,4 @@
--- Dos clientes que começaram SQL no primeiro dia, quantos chegaram ao 50 dia?
+-- Dos clientes que começaram SQL no primeiro dia, quantos chegaram ao 5 dia?
 
 SELECT count(DISTINCT IdCliente) AS QtDeClientes
 

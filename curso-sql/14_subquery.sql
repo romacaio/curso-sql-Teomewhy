@@ -6,8 +6,9 @@ SELECT *
 
 FROM transacao_produto as t1 
 
-WHERE t1.IdProduto IN (
+WHERE t1.IdProduto = (
     SELECT IdProduto
     FROM produtos
     WHERE DescNomeProduto = 'Resgatar Ponei'
 )
+
