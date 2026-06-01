@@ -16,7 +16,7 @@ tb_dia_cliente AS (
     LEFT JOIN transacoes AS t2
     ON t1.idCliente = t2.idCliente
     AND t2.DtCriacao >= '2025-08-25'
-    AND t2.DtCriacao < '2025-09-01'
+    AND t2.DtCriacao < '2025-08-30'
 
     GROUP BY t1.idCliente, dtDia
     ORDER BY t1.idCliente, dtDia
